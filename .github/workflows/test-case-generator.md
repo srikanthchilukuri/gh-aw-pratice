@@ -1,5 +1,6 @@
 ---
 description: Generates JUnit test case suggestions when a new feature or bug issue is opened.
+engine: claude
 on:
   issues:
     types: [opened]

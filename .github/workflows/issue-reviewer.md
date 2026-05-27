@@ -1,5 +1,6 @@
 ---
 description: Reviews new issues for completeness, triages them, and applies appropriate labels.
+engine: claude
 on:
   issues:
     types: [opened, edited]

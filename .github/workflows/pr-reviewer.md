@@ -1,5 +1,6 @@
 ---
 description: Reviews pull requests for code quality, Java best practices, security issues, and test coverage gaps, posting inline review comments.
+engine: claude
 on:
   pull_request:
     types: [opened, synchronize]

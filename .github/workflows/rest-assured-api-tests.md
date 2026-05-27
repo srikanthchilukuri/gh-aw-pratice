@@ -1,5 +1,6 @@
 ---
 description: Generates REST Assured API test cases for Java API changes introduced in pull requests and opens a PR with the test files.
+engine: claude
 on:
   pull_request:
     types: [opened, synchronize]
